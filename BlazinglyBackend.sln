@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazinglyBackend", "BlazinglyBackend\BlazinglyBackend.csproj", "{A0FCE15B-EE16-40A1-8860-14F85AF742B3}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BlazinglyDb", "..\BlazinglyDb\BlazinglyDb.sqlproj", "{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +15,6 @@ Global
 		{A0FCE15B-EE16-40A1-8860-14F85AF742B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0FCE15B-EE16-40A1-8860-14F85AF742B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0FCE15B-EE16-40A1-8860-14F85AF742B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{436DAE1E-CDF3-44F0-9CDD-5E061EAB51D8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
