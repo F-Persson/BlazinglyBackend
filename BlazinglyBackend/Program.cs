@@ -9,13 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-//string connectionString = builder.Configuration.GetConnectionString("APIDb") ?? throw new InvalidOperationException("Connection string 'APIBackendContext' not found.");
 
-//builder.Services.AddDbContext<APIContext>(options =>
-//    options.UseSqlServer(connectionString));
-
-// without apibackend
-//connectionString = connectionString.Replace("{your_password}", Environment.GetEnvironmentVariable("your_password"));
 
 builder.Services.AddDbContext<APIContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("APIDb") ?? throw new InvalidOperationException("Connection string 'APIBackendContext' not found.")));
